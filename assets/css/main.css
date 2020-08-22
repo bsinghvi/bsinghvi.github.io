@@ -1,0 +1,153 @@
+div.hidden {
+    display: block;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Quicksand', serif;
+}
+
+p, ul, li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+        min-width: 300px;
+    }
+    .carousel {
+        min-width:100% !important;
+    }
+    iframe {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.navbar-toggler {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+
+.nav-link {
+   color:#4A708B !important;
+   font-weight: bold;
+}
+
+.nav-pills > li > a.active, .nav-pills > li > a.active:hover, .nav-pills > li > a.active:focus {
+    background-color: #d7fdec !important;
+    color: #358600 !important;
+}
+
+.vertical-space {
+    padding-top: 20px;
+}
+
+.vertical-space-sm {
+    padding-top: 10px;
+}
+
+.vertical-space-md {
+    padding-top: 20px;
+}
+
+.vertical-space-lg {
+    padding-top: 30px;
+}
+
+h3 {
+    text-decoration:underline; 
+    text-decoration-style: double; 
+}
+
+h4 {
+    text-decoration:underline; 
+    text-decoration-style: dotted; 
+}
+
+hr.section-border {
+    border-top: 2px dashed #eea243;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+
+.align-vertical-horizontal {
+    display: block;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+}
+
+.circle {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.square {
+    height: 95px;
+    width: 95px;
+    line-height: 95px;
+    font-size: 14px;
+    background-color: #555;
+}
+
+.triangle-up {
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 70px 90px 70px;
+    border-color: transparent transparent #007bff transparent;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    float: center;
+    position: relative;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+.triangle-up span {
+    text-align: center;
+    top: 50px;
+    left: -25px;
+    float:left;
+    position: absolute;
+    font-size: 14px;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+}
+
+section#skills-familiar div.row {
+    padding-right: 50px;
+}
+
+.carousel {
+    width:50% !important;
+    margin: auto;
+}
+
+.carousel-caption {
+    font-weight: bold;
+}
+
+.carousel-item img {
+   height: auto !important;
+}
