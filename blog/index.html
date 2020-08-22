@@ -1,0 +1,12 @@
+---
+layout: default
+title: Bhaskar's Blog
+---
+
+<h1>{{ page.title }}</h1>
+<ul class="posts" style="list-style-type: circle;">
+
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <h4><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4></li>
+    {% endfor %}
+</ul>
